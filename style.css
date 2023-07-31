@@ -12,14 +12,13 @@ body{
 }
 #logo a{
     color: #276678;
-    font-weight: 60px;
-    font-size: 28px;
+    font-weight: bold;
+    font-size: 20px;
     margin-top: 10px;
     text-decoration: none;
+    padding-left: 10px;
 }
-/*.navbar-brand{
-    font-family: 'Poppins', sans-serif;
-}*/
+
 #navbarNav a{
     color: #276678;
 }
@@ -31,30 +30,7 @@ body{
 
 #logo{
     display: flex;
-}/*
-#logo img{
-    width: 18px;
-    height: 18px;
-    margin-top: 21px;
 }
-#logo h1{
-    font-weight: 60px;
-    font-size: 20px;
-    margin-top: 18px;
-}
-nav{
-    padding: 10px 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #FFFFFF;
-    padding-bottom: 15px;
-}
-nav a{
-    text-decoration: none;
-    color: #276678;
-    margin-right: 10px;
-}*/
 .container1{
     padding-top: 40px;
     margin-top: -5px;
@@ -138,13 +114,14 @@ nav a{
     margin: 60px 60px 120px 60px;
     border-radius: 8px;
     display: flex;
-    background-color: #276678;
+    background-image: url(img/cb_bg.png);
     justify-content: center;
     gap: 5px;
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 28px;
     align-items: center;
-    padding: 30px 30px;
+    padding: 20px 20px;
+    font-weight: bold;
 }
 .kebalik p{
     transform: rotate(180deg);
@@ -153,7 +130,7 @@ nav a{
 
 /*section 3*/
 .container3{
-    background-color: #276678;
+    background-image:url(img/cb_bg2.png);
     color: #FFFFFF;
     justify-content: center;
     padding-bottom: 75px;
@@ -299,8 +276,8 @@ nav a{
 	margin:auto;
 }
 .footer{
-	background-color: #276678;
-    padding: 30px 0;
+	background-image:url(img/cb_bg3.png);
+    padding-top: 20px;
 }
 footer{
     background-color: #276678;
@@ -409,222 +386,3 @@ ul{
         display: flex;
     }
 }
-
-/*section 6 page 2
-.container6 {
-    padding: 50px 0;
-    align-items: center;
-    background-color:#F6F5F5 ;
-    color: #276678;
-    justify-content: center;
-    padding-bottom: 75px;
-    padding-top: 5px;
-}
-.container6 h2{
-    background-color: #F6F5F5;
-    text-align: center;
-    color:#276678 ;
-    display: flex;
-    line-height: 8px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 24px;
-}
-.filosofi{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-.filosofi img{
-    width: 125px;
-    height: 125px;
-    margin-top: 15px;
-    margin-bottom: 10px;
-}
-.deskripsi{
-    margin: 30px 60px;
-    border-radius: 8px;
-    background-color: #276678;
-    justify-content: center;
-    gap: 5px;
-    color: #FFFFFF;
-    line-height: 12px;
-    font-size: 12px;
-    align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-/*akhiran section 6*/
-
-/*section 7
-.container7{
-    margin: 30px 60px;
-    align-items: center;
-    justify-content: center;
-    line-height: 20px;
-    font-size: 18px;
-    padding: 60px 30px;
-    gap: 5px;
-    text-align: center;
-    font-weight: bolder;
-    color: #276678;
-}*/
-/*akhir section 7*/
-
-/*section 8
-.container8 {
-    margin: 30px 60px;
-    align-items: center;
-    justify-content: center;
-    line-height: 20px;
-    font-size: 15px;
-    padding: 60px 30px;
-    gap: 5px;
-    text-align: center;
-    font-weight: bolder;
-    color: #276678;
-}
-.pengurus{
-    background-color: #F6F5F5;
-    padding-top: 40px;
-    padding-bottom: 50px;
-    text-align: center;
-    color: black;
-    margin-top: 20px;
-}
-.trisula1{
-    gap: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-.event7{
-    background-color: #276678;
-    width: 15rem;
-    height: 22rem;
-    border-radius: 8px 8px 0 0;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-.event7 img{
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 8px 8px 0 0;
-}
-
-.event8{
-    background-color: #276678;
-    width: 15rem;
-    height: 22rem;
-    border-radius: 8px 8px 0 0;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-.event8 img{
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 8px 8px 0 0;
-}
-
-.event9{
-    background-color: #276678;
-    width: 15rem;
-    height: 22rem;
-    border-radius: 8px 8px 0 0;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-.event9 img{
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 8px 8px 0 0;
-}
-
-.staff{
-    margin-top: 80px;
-}
-.staff1{
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    display: flex;
-}
-.textp21{
-    padding-left: 60px;
-    margin-bottom: 5px;
-}
-.internal{
-    background-color: #FFFFFF;
-    width: 20rem;
-    height: 18rem;
-    border-radius: 8px 8px 0 0;
-    margin: 20px;
-
-}
-.internal img{
-    max-width: 100%;
-    border-radius: 8px 8px 0 0;
-}
-
-.textp22{
-    padding-left: 60px;
-    margin-bottom: 5px;
-}
-.psdm{
-    background-color: #FFFFFF;
-    width: 20rem;
-    height: 18rem;
-    border-radius: 8px 8px 0 0;
-    margin: 20px;
-
-}
-.psdm img{
-    max-width: 100%;
-    border-radius: 8px 8px 0 0;
-}
-
-
-.staff2{
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    display: flex;
-}
-.textp23{
-    padding-left: 60px;
-    margin-bottom: 5px;
-}
-.humas{
-    background-color: #FFFFFF;
-    width: 20rem;
-    height: 18rem;
-    border-radius: 8px 8px 0 0;
-    margin: 20px;
-
-}
-.humas img{
-    max-width: 100%;
-    border-radius: 8px 8px 0 0;
-}
-
-.textp24{
-    padding-left: 60px;
-    margin-bottom: 5px;
-}
-.infokom{
-    background-color: #FFFFFF;
-    width: 20rem;
-    height: 18rem;
-    border-radius: 8px 8px 0 0;
-    margin: 20px;
-
-}
-.infokom img{
-    max-width: 100%;
-    border-radius: 8px 8px 0 0;
-}*/
-
